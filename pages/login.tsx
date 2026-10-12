@@ -379,7 +379,7 @@ const Login: NextPage = () => {
     const { error, action, ...rest } = Router.query;
     if (error) {
       if (error === "discord-not-linked")
-        toast.error("This account isn't linked to any Province Staff account.");
+        toast.error("This account isn't linked to any Sleepwell LTD account.");
       else if (error === "google-not-linked")
         toast.error("Your Google account is not linked.");
       else if (error === "state-mismatch")
@@ -464,7 +464,7 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sign in · Province Staff</title>
+        <title>Sign in · Sleepwell LTD</title>
       </Head>
 
       <div className="relative min-h-screen overflow-hidden bg-zinc-50 dark:bg-zinc-950">
@@ -491,7 +491,7 @@ const Login: NextPage = () => {
                 Account
               </p>
               <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
-                Welcome to <span className="text-primary">Province Staff</span>
+                Welcome to <span className="text-primary">Sleepwell LTD</span>
               </h1>
               <p className="mt-3 max-w-sm text-base leading-relaxed text-zinc-500 dark:text-zinc-400">
                 Sign in or create an account to access your workspaces.
